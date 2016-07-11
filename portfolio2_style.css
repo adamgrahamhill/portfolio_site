@@ -45,7 +45,7 @@ header i , header img {
 /* profile pic////////////////////////////////*/
 /* profile pic////////////////////////////////*/
 #left > img {
-  max-width: 45%;
+  max-width: 50%;
   transition-property: border-color;
   transition-duration: 2s;
   transition-timing-function:ease-out;
@@ -67,7 +67,8 @@ header i , header img {
   text-decoration: underline;
   color: lime;
   transition-property: color, text-decoration;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 #experience:hover {
   color:#1DA1F2;
@@ -137,6 +138,7 @@ a:active {
   color: lime;
   position: fixed;
   bottom: 1em;
+  right: 2em;
 }
 /* blinky prompt, thank you interweb //////////////*/
 /* blinky prompt, thank you interweb //////////////*/
